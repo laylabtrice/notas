@@ -1,0 +1,49 @@
+body {
+    background: #ed97f5;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+input {
+    font-size: 30px;
+    border: 2px solid black;
+    font-family: monospace;
+}
+button {
+    font-size: 25px;
+    height: 43px;
+}
+table {
+    background: rgba(32, 32, 32, 0.212);
+    width: 900px;
+    border-radius: 10px;
+    border: 1px solid rgb(245, 245, 245);
+}
+td {
+    border: 1px solid rgb(245, 245, 245);
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #eeeeee;
+}
+th {
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #fefefe;
+}
+.btn {
+    background: #0000009a;
+    border: 1px solid #fefefe;
+    color: #fefefe;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.btn:hover {
+    background: #fefefe;
+    border: 1px solid #000;
+    color: #000;
+}
+.data {
+    color: #f0f0f0;
+    font-size: 1.6rem;
+}
